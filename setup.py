@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 
-setuptools.setup(name='pelican_cite_nice',
+setuptools.setup(name='pelican_render_math',
                  version=pelican_render_math.__version__,
                  description='Pelican math rendering plugin modified to work with nice-blog theme',
                  long_description=long_description,
