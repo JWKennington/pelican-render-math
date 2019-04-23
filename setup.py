@@ -20,4 +20,5 @@ setuptools.setup(name='pelican_render_math',
                  author_email='jameswkennington@gmail.com',
                  license='MIT',
                  packages=setuptools.find_packages(),
-                 zip_safe=False)
+                 zip_safe=False, 
+                 include_package_data=True)

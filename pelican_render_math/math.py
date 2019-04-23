@@ -244,7 +244,7 @@ def process_mathjax_script(mathjax_settings):
 
     # Read the mathjax javascript template from file
     with open (os.path.dirname(os.path.realpath(__file__))
-            + '/mathjax_script_template', 'r') as mathjax_script_template:
+            + '/mathjax_script_template.js', 'r') as mathjax_script_template:
         mathjax_template = mathjax_script_template.read()
 
     return mathjax_template.format(**mathjax_settings)
