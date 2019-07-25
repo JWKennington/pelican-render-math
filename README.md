@@ -27,7 +27,7 @@ Both Markdown and reStructuredText is supported.
 To enable, ensure that `render_math` plugin is accessible.
 Then add the following to settings.py:
 
-    PLUGINS = ["render_math"]
+    PLUGINS = ["pelican_render_math"]
 
 Your site is now capable of rendering math math using the mathjax JavaScript
 engine. No alterations to the template is needed, just use and enjoy!
@@ -167,4 +167,5 @@ Displayed math uses the [math block](http://docutils.sourceforge.net/docs/ref/rs
 
 ## Acknowledgments
 
-This package was built by [Justin Mayer](https://github.com/justinmayer) in [render_math](https://github.com/getpelican/pelican-plugins/blob/master/render_math/math.py). 
+This package is based closely by one built by [Justin Mayer](https://github.com/justinmayer) in 
+[render_math](https://github.com/getpelican/pelican-plugins/blob/master/render_math/math.py). 
